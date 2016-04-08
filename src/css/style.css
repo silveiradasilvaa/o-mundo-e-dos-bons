@@ -1,0 +1,50 @@
+.box-form {
+	background-color: white;
+	padding: 30px;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {
+	float:none;
+}
+
+.navbar-default {
+	background-color: #fff9ea;
+	border: 4px solid transparent;
+	border-image-source: url(../images/border.png);
+	border-image-repeat: repeat;
+	border-image-slice: 6.4;
+	border-top: none;
+	border-left:none;
+	border-right: none;
+}
+
+
+.navbar-brand > img {
+  max-width: 70px;
+  display: initial !important;
+}
+
+.bg {
+	background-image: url("../images/bg.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.white {
+	color: white;
+}
+
+.showcase{
+	padding: 60px 0;
+}
