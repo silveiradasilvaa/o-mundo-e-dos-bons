@@ -37,9 +37,9 @@ h2, .h2 {
 	border-image-source: url(../images/border.png);
 	border-image-repeat: repeat;
 	border-image-slice: 6.4;
-	border-top: none;
-	border-left:none;
-	border-right: none;
+	border-top: 0;
+	border-left:0;
+	border-right: 0;
 }
 
 
@@ -155,9 +155,9 @@ label {
 	border-image-source: url(../images/border.png);
 	border-image-repeat: repeat;
 	border-image-slice: 6.4;
-	border-top: none;
-	border-left: none;
-	border-right: none;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
 }
 
 .header-form h2 {
