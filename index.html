@@ -1,85 +1,132 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-  <head>
-  	 <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Seja um revendedor - O mundo é dos bons</title>
-
-    <meta name="description" content="">
-    <meta name="author" content="O Mundo é dos Bons">
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-570c2741ab469190"></script>
-
-  </head>
-
-  <body>
-
-    <!-- Nav -->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <img alt="Brand" src="images/brand.png">
-          </a>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Showcase -->
-    <div class="container-fluid bg showcase">
-      <div class="container">
-        <div class="row">
-          <section class="col-md-8 white">
-              <h1>9 dicas para presentear a Melhor Mãe do Mundo!</h1>
-              <p class="description">Quando foi o último presente original, com a real intenção de surpreender que você deu para sua mãe, por exemplo? Temos uma missão: é hora de reconectar, nem que seja por um dia :)</p>
-              <button type="submit" class="btn btn-default visible-sm visible-xs">Desejo receber agora!</button>
-               <img class="img-responsive" src="images/card.png" alt="Cartão"> 
-          </section>
-          <div class="col-md-4 hidden-sm">
-            <div class="header-form">
-              <h2>Preencha o formulário e receba o e-book grátis</h2>
-            </div>
-            <form role="form" class="box-form">
-              <div class="form-group">
-                <label for="name">Nome:</label>
-                <input type="text" class="form-control" id="name">
-              </div>
-              <div class="form-group">
-                <label for="email">E-mail:</label>
-                <input type="text" class="form-control" id="email">
-              </div>
-              <div class="form-group">
-                <label for="company">Empresa:</label>
-                <input type="text" class="form-control" id="company">
-              </div>
-              <div class="form-group">
-                <label for="phone">Telefone:</label>
-                <input type="text" class="form-control" id="phone">
-              </div>
-              <button type="submit" class="btn btn-default">Desejo receber agora!</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- advantages -->
+<head>
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>9 dicas para presentear a Melhor Mãe do Mundo!</title>
+  <meta name="description" content="Quando foi o último presente original, com a real intenção de surpreender que você deu para sua mãe, por exemplo? Temos uma missão: é hora de reconectar, nem que seja por um dia :)">
+  <meta name="author" content="O Mundo é dos Bons">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-570c2741ab469190"></script>
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/72fc47f633/Vanusa/style.css">
+</head>
+<body>
+  <!-- Nav -->
+  <nav class="navbar navbar-default">
     <div class="container-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">Vantagem 1</div>
-          <div class="col-md-4">Vantagem 2</div>
-          <div class="col-md-4">Vantagem 3</div>
-        <div>
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="images/brand.png">
+        </a>
       </div>
     </div>
-
-  </body>
+  </nav>
+  <!-- Showcase -->
+  <div class="container-fluid bg">
+    <div class="container dist-vert-60">
+      <div class="row">
+        <section class="col-md-8 white">
+          <h1>9 dicas para presentear a Melhor Mãe do Mundo!</h1>
+          <p class="description">Quando foi o último presente original, com a real intenção de surpreender que você deu para sua mãe, por exemplo? Temos uma missão: é hora de reconectar, nem que seja por um dia :)</p>
+          <button type="button" class="btn btn-default visible-sm visible-xs dist-vert-30" data-toggle="modal" data-target="#myModal"><span class="icon-book dist-right"></span>Baixe agora!</button>
+           <img class="img-responsive" src="images/card.png" alt="Cartão"> 
+        </section>
+        <div class="col-md-4 hidden-sm hidden-xs">
+          <section class="header-form">
+            <h2>Preencha o formulário e receba o e-book grátis</h2>
+          </section>
+          <form role="form" class="box-form">
+            <div class="form-group">
+              <label for="name">Nome:</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="text" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="company">Empresa:</label>
+              <input type="text" class="form-control" id="company">
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefone:</label>
+              <input type="text" class="form-control" id="phone">
+            </div>
+            <button type="submit" class="btn btn-default"><span class="icon-book dist-right"></span>Baixe agora!</button>
+            <p class="no-spam">Prometemos não enviar SPAM :)</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- advantages -->
+  <div class="container-fluid">
+    <div class="container dist-vert-60">
+      <div class="row">
+        <div class="advantages text-center">
+          <section class="col-md-4 col-sm-4">
+            <span class="icon-gifts"></span>
+            <h3>Presenteie sua mãe com originalidade!</h3>
+          </section>
+          <section class="col-md-4 col-sm-4">
+            <span class="icon-hearth"></span>
+            <h3>Entregue emoção e reviva momentos ótimos!</h3>
+          </section>
+          <section class="col-md-4 col-sm-4">
+            <span class="icon-family"></span>
+            <h3>Marque mais um momento na vida dela!</h3>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--- footer -->
+  <div class="footer container-fluid text-center">
+    <div class="row">
+      <div class="col-md-12 dist-vert-30">
+        <small>Feito com ♥ por O mundo é dos bons</small>
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <section class="modal-header header-form">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Preencha o formulário e receba o e-book grátis</h2>
+        </section>
+        <div class="modal-body">
+          <form role="form" class="box-form">
+          <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <div class="form-group">
+            <label for="company">Empresa:</label>
+            <input type="text" class="form-control" id="company">
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone:</label>
+            <input type="text" class="form-control" id="phone">
+          </div>
+          <button type="submit" class="btn btn-default"><span class="icon-book dist-right"></span>Baixe agora!</button>
+          <p class="no-spam">Prometemos não enviar SPAM :)</p>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.min.js"></script>
+</body>
 </html>

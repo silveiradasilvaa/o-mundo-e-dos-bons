@@ -10,10 +10,24 @@ h2, .h2 {
 	font-size: 25px;
 }
 
+h3, .h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .description {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 400;
 	font-size: 20px;
+}
+
+.no-spam {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 90%;
+  color: #c8c8c8;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .box-form {
@@ -61,10 +75,6 @@ h2, .h2 {
 
 .white {
 	color: white;
-}
-
-.showcase{
-	padding: 60px 0;
 }
 
 .form-control {
@@ -130,21 +140,21 @@ label {
 
 .btn-default:focus,
 .btn-default.focus {
-  color: white;
-  background-color: #1c842c;
-  border-color: #8c8c8c;
+  color: white !important;
+  background-color: #1c842c !important;
+  border-color: #127020 !important;
 }
 .btn-default:hover {
-  color: white;
-  background-color: #1c842c;
-  border-color: #adadad;
+  color: white !important;
+  background-color: #1c842c !important;
+  border-color: #127020 !important;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: white;
-  background-color: #1c842c;
-  border-color: #adadad;
+  color: white !important;
+  background-color: #1c842c !important;
+  border-color: #127020 !important;
 }
 
 .header-form {
@@ -162,4 +172,52 @@ label {
 
 .header-form h2 {
 	margin:0px;
+}
+
+.dist-vert-30 {
+  margin: 30px auto;
+}
+
+.dist-vert-60 {
+  margin: 60px auto;
+}
+
+.dist-right {
+  margin-right:15px;
+}
+
+.icon-gifts {
+  font-size: 70px;
+  color: #ec8c83;
+  display: block;
+}
+
+.icon-hearth {
+  font-size: 70px;
+  color: #ec8c83;
+  display: block;
+}
+
+.icon-family {
+  font-size: 70px;
+  color: #ec8c83;
+  display: block;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer small {
+  color:#a7a7a7;
+}
+
+@media (max-width: 768px){
+body {
+  text-align: center;
+}
+
+  .advantages section{
+    margin-bottom: 60px;
+  }
 }
