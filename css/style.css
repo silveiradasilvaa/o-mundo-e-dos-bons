@@ -1,29 +1,90 @@
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('../fonts/sourcesanspro-bold-webfont.eot');
+    src: url('../fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourcesanspro-regular-webfont.eot');
+    src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?fwue8w');
+    src:    url('../fonts/icomoon.eot?fwue8w#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?fwue8w') format('truetype'),
+        url('../fonts/icomoon.woff?fwue8w') format('woff'),
+        url('../fonts/icomoon.svg?fwue8w#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-gifts:before {
+    content: "\e902";
+}
+.icon-family:before {
+    content: "\e901";
+}
+.icon-hearth:before {
+    content: "\e903";
+}
+.icon-book:before {
+    content: "\e900";
+}
+
 h1, .h1 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
+	font-family: 'source_sans_probold', sans-serif;
 	font-size:40px;
 }
 
 h2, .h2 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 700;
+	font-family: 'source_sans_probold', sans-serif;
 	font-size: 25px;
 }
 
 h3, .h3 {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 400;
+  font-family: 'source_sans_proregular', sans-serif;
   font-size: 18px;
 }
 
 .description {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 400;
+  font-family: 'source_sans_proregular', sans-serif;
 	font-size: 20px;
 }
 
 .no-spam {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'source_sans_proregular', sans-serif;
   font-size: 90%;
   color: #c8c8c8;
   margin-top: 20px;
@@ -56,7 +117,6 @@ h3, .h3 {
 	border-right: 0;
 }
 
-
 .navbar-brand > img {
   max-width: 70px;
   display: initial !important;
@@ -65,8 +125,8 @@ h3, .h3 {
 .bg {
 	background-image: url("../images/bg.jpg");
 	background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .navbar {
@@ -122,7 +182,7 @@ label {
   margin-bottom: 5px;
   font-weight: 400;
   font-size: 12px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'source_sans_proregular', sans-serif;
 }
 
 .btn-default {
@@ -131,9 +191,8 @@ label {
     border-color: #289939;
     width: 100%;
     height: 60px;
-  font-weight: 700;
   font-size: 18px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'source_sans_probold', sans-serif;
   	-webkit-transition: 0.2s; /* Safari */
     transition: 0.2s;
 }
