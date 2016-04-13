@@ -48,12 +48,24 @@
               <input type="text" class="form-control" id="email">
             </div>
             <div class="form-group">
-              <label for="company">Empresa:</label>
-              <input type="text" class="form-control" id="company">
+              <label for="genre">Gênero:</label>
+                <select class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
             </div>
             <div class="form-group">
-              <label for="phone">Telefone:</label>
-              <input type="text" class="form-control" id="phone">
+              <label for="gifts">Você costuma presentear com cartões?</label>
+                <select class="form-control">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
             </div>
             <button type="submit" class="btn btn-default"><span class="icon-book dist-right"></span>Baixe agora!</button>
             <p class="no-spam">Prometemos não enviar SPAM :)</p>
@@ -102,22 +114,30 @@
         </section>
         <div class="modal-body">
           <form role="form" class="box-form">
-          <div class="form-group">
-            <label for="name">Nome:</label>
-            <input type="text" class="form-control" id="name">
-          </div>
-          <div class="form-group">
-            <label for="email">E-mail:</label>
-            <input type="text" class="form-control" id="email">
-          </div>
-          <div class="form-group">
-            <label for="company">Empresa:</label>
-            <input type="text" class="form-control" id="company">
-          </div>
-          <div class="form-group">
-            <label for="phone">Telefone:</label>
-            <input type="text" class="form-control" id="phone">
-          </div>
+            <div class="form-group">
+              <label for="name">Nome:</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="text" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="genero">Gênero:</label>
+              <select name="custom_fields[xxx]" id="custom_fields_xxx" class="form-control">
+                <option value="">Selecione</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="gifts">Você costuma presentear com cartões?</label>
+              <select name="custom_fields[xxxx]" id="custom_fields_xxxx" class="form-control">
+                <option value="">Selecione</option>
+                <option value="Masculino">Sim</option>
+                <option value="Feminino">Não</option>
+              </select>
+            </div>
           <button type="submit" class="btn btn-default"><span class="icon-book dist-right"></span>Baixe agora!</button>
           <p class="no-spam">Prometemos não enviar SPAM :)</p>
         </form>
