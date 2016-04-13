@@ -81,6 +81,11 @@ h3, .h3 {
 	font-size: 20px;
 }
 
+.paragraph {
+  font-family: 'source_sans_proregular', sans-serif;
+  font-size: 14px !important;
+}
+
 .no-spam {
   font-family: 'source_sans_proregular', sans-serif;
   font-size: 90%;
@@ -219,6 +224,37 @@ label {
   border-color: #127020 !important;
 }
 
+.btn-download {
+    color: white;
+    background-color: #34a445;
+    border-color: #289939;
+    height: 100px;
+  font-size: 18px;
+  padding: 40px;
+  font-family: 'source_sans_probold', sans-serif;
+    -webkit-transition: 0.2s; /* Safari */
+    transition: 0.2s;
+}
+
+.btn-download:focus,
+.btn-download.focus {
+  color: white !important;
+  background-color: #1c842c !important;
+  border-color: #127020 !important;
+}
+.btn-download:hover {
+  color: white !important;
+  background-color: #1c842c !important;
+  border-color: #127020 !important;
+}
+.btn-download:active,
+.btn-download.active,
+.open > .dropdown-toggle.btn-download {
+  color: white !important;
+  background-color: #1c842c !important;
+  border-color: #127020 !important;
+}
+
 .header-form {
 	background-color: white;
 	padding: 30px;
@@ -272,6 +308,12 @@ label {
 
 .footer small {
   color:#a7a7a7;
+}
+
+/* IE 6 */
+* html .footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
 }
 
 @media (max-width: 768px){
